@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* new font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /* new font for headings */        
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: url('http://static.simpledesktops.com/uploads/desktops/2017/06/02/bg-wallpaper.png') no-repeat center center fixed; */
+    background: url('background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif; /* apply the new font */
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.question-box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.question-box:hover {
+    background-color: #f1f1f1;
+}
+/* to add line wrapping in <pre> */
+pre {
+    font-size: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.search-box {
+    /* max-width: 600px; */
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f085;
+    /* background-color: #cfca5e; */
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.form-control, .btn {
+    /* width: 300px; */
+    text-align: center; /* Center the user input */
+    font-size: 26px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif; /* apply the new font */
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.title:hover {
+    /* color: #00eeff; */
+    /* color: #6652d9; */
+    color: #F4F4F4;
+    -webkit-text-stroke: 1px black; /* Add a black stroke around the text */
+
+}
+
+.white-text {
+    color: #ffffff;
+    /* -webkit-text-stroke: 0.5px black; */ /* Add a black stroke around the text */
+}
+
+.results {
+    width: 80%;
+    overflow-y: auto;
+    /* max-height: 70vh; */
+    text-align: center;
+    /* Adjust the value as needed */
+    height: 100vh;
+    /* padding-bottom: 180px; */
+}
+
+.question-box {
+    background-color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.question-box:hover {
+    background-color: #4fd3d3;
+}
+.question-title:hover {
+    transform: scale(1.1); /* reduced the scaling for smoother transition */
+    /* background-color: #b2d8d8; */
+}
+.question-title a {
+    color: #0f0f10;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.question-title a:hover {
+    color: #0080ff; /* changed the hover color to blue */
+}
+.content {
+    font-size: 20px;   /* not changing? */
+    color: #0f0f10;
+    text-align: left;
+}
+
+.link-text {
+    margin-left: 5px;
+    font-size: 20px;
+}
+.content-link {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+.question-link {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0f0f10;
+    transition: color 0.3s ease;
+}
+
+.no-results {
+    text-align: center;
+    margin-top: 25px;
+
+    background-color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.no-results:hover {
+    background-color: #d34f4f;
+    color: #0f0f10;
+    font-weight: bold;
+    transform: scale(0.95);
+}
+
+.footer {
+    background-color: #343a40;
+    /* background-color: #066969; */
+    padding: 10px;
+    text-align: right;
+    color: #f8f9fa;
+    transition: color 0.3s ease;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+.footer a {
+    color: rgb(121, 121, 255);
+    /* color: #d87e17; */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.fa-heart {
+    /* color: rgb(205, 0, 0); */
+    color: #d81717;
+}
+.footer a:hover {
+    color: #00eeff;
+}
+
+.social-icons-container a {
+    color: #f8f9fa; /* Set the default color of the links */
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+.social-icons-container a:hover {
+    color: #00eeff;
+}
+
+.footer .social-icons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    color: white;
+}
+
+.footer .social-icons-container i {
+    font-size: 32px;
+}
