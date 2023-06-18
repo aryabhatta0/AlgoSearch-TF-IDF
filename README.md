@@ -4,7 +4,7 @@ AlgoSearch is a specialized search engine created specifically for coding questi
 
 The server is live at [https://algosearch.onrender.com/](https://algosearch.onrender.com/)
 
-![Output](static\Output.png)
+![Output](static/Output.png)
 
 ## Inspiration
 Have you ever felt frustrated while searching for coding questions across multiple platforms? So, why not develop our own search engine that can conveniently display results from all platforms in one place? While currently focused on LeetCode, we will be integrating other platforms like CodeChef and CodeForces later?
