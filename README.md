@@ -2,7 +2,9 @@
 
 AlgoSearch is a specialized search engine created specifically for coding questions on platforms like Leetcode. It utilizes the Term Frequency-Inverse Document Frequency ([TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)) algorithm to provide accurate search results based on user queries. TF-IDF aims to improve information retrieval by calculating the relevance of documents to a given query.
 
-The server is live at [https://algosearch.onrender.com/](https://algosearch.onrender.com/).
+The server is live at [https://algosearch.onrender.com/](https://algosearch.onrender.com/)
+
+![Output](static\Output.png)
 
 ## Inspiration
 Have you ever felt frustrated while searching for coding questions across multiple platforms? So, why not develop our own search engine that can conveniently display results from all platforms in one place? While currently focused on LeetCode, we will be integrating other platforms like CodeChef and CodeForces later?
@@ -51,9 +53,9 @@ Follow the instructions below to use AlgoSearch in your own system:
 
 To start the search engine, run the following command in the root dir:
 
-    python app.py
+    flask --app app run
 
-Open your web browser and visit `http://127.0.0.1:5000` to access the search engine.
+Open your web browser and visit [http://127.0.0.1:5000](http://127.0.0.1:5000) to access the search engine.
 
 For demo, visit live server at [https://algosearch.onrender.com/](https://algosearch.onrender.com/)
 
@@ -69,4 +71,4 @@ For demo, visit live server at [https://algosearch.onrender.com/](https://algose
 
 Contributions are welcome! Feel free to open pull requests for major changes or discuss any suggestions by opening an issue. 
 
-For any queries or assistance, you can contact me at [mail](mailto:aryabhattaaryan@gmail.com).
+For any queries or assistance, you can contact me at [mail.](mailto:aryabhattaaryan@gmail.com)
